@@ -30,7 +30,7 @@ const sortOptions=[
     {name:"Price: high to low",sort:"price",order:"desc"},
 ]
 
-const bannerImages=["https://ezshop-assets.s3.us-east-1.amazonaws.com/banner1.jpg","https://ezshop-assets.s3.us-east-1.amazonaws.com/banner3.jpg","https://ezshop-assets.s3.us-east-1.amazonaws.com/banner2.jpg","https://ezshop-assets.s3.us-east-1.amazonaws.com/banner4.jpg"]
+const bannerImages=["https://d3ysv88awulvx.cloudfront.net/banner1.jpg","https://d3ysv88awulvx.cloudfront.net/banner3.jpg","https://d3ysv88awulvx.cloudfront.net/banner2.jpg","https://d3ysv88awulvx.cloudfront.net/banner4.jpg"]
 
 export const ProductList = () => {
     const [filters,setFilters]=useState({})
